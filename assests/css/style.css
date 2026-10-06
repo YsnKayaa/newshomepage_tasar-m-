@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background-color: hsl(36, 100%, 99%);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: hsl(233, 8%, 45%);
+}
+
+.page {
+    width: 1022px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+/* HEADER (float kullandığımız için yüksekliği elle veriyoruz) */
+header {
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: hsl(240, 100%, 5%);
+}
+
+.links {
+    float: right;
+    line-height: 60px;
+}
+
+.links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: hsl(233, 8%, 45%);
+}
+
+/* ALT BÖLÜM: sol içerik + sidebar */
+main {
+    height: 470px;
+    margin-top: 50px;
+}
+
+.main-feed {
+    float: left;
+    width: 672px;
+    height: 470px;
+}
+
+.hero {
+    display: block;
+    width: 672px;
+    height: 276px;
+}
+
+.headline {
+    float: left;
+    width: 340px;
+    margin: 24px 0 0 0;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 0.95;
+    color: hsl(240, 100%, 5%);
+}
+
+.intro {
+    float: right;
+    width: 310px;
+    margin-top: 24px;
+}
+
+.intro p {
+    margin: 0 0 30px 0;
+    line-height: 1.6;
+}
+
+.intro button {
+    display: block;
+    width: 170px;
+    height: 44px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+/* SIDEBAR: 278 + 22 + 22 = 322px genişlik, 410 + 30 + 30 = 470px yükseklik */
+.sidebar {
+    float: right;
+    width: 278px;
+    height: 410px;
+    padding: 30px 22px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.sidebar-title {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(35, 77%, 62%);
+}
+
+.sidebar h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar p {
+    margin: 0;
+    line-height: 1.5;
+    color: hsl(36, 20%, 85%);
+}
+
+.sidebar hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid hsl(233, 8%, 35%);
+}
+
+.part-1 {
+    display: inline-block;
+    margin: 30px 0 0 7px;
+}
+
+.part-1 div {
+    float: right;
+    margin-left: 30px;
+    line-height: 1.0;
+    font-size: 12px;
+    width: 200px;
+}
+
+.part-1 h2 {
+    color: chocolate;
+}
+
+.part-2 {
+    display: inline-block;
+    margin: 30px 0 0 7px;
+}
+
+.part-2 div {
+    float: right;
+    margin-left: 30px;
+    line-height: 1.0;
+    font-size: 12px;
+    width: 200px;
+}
+
+.part-2 h2 {
+    color: chocolate;
+}
+
+.part-3 {
+    display: inline-block;
+    margin: 30px 0 0 7px;
+}
+
+.part-3 div {
+    float: right;
+    margin-left: 30px;
+    line-height: 1.0;
+    font-size: 12px;
+    width: 200px;
+}
+
+.part-3 h2 {
+    color: chocolate;
+}
