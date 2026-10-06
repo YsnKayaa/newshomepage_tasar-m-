@@ -1,3 +1,4 @@
 News Homapage Dosyasısı Oluşturuldu
 Anasayfa Oluşturuldu
 CSS dosyası oluşturuldu
+Görseller eklendi
